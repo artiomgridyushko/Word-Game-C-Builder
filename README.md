@@ -1,16 +1,16 @@
 # Word-Game-C-Builder
-Проект представляет собой игру в слова, разработанную в среде C++ Builder. Игра загружает массив слов из текстового документа и предлагает игроку перемешанное слово с двумя добавленными буквами. Игрок должен вписать правильное слово, которое соответствует описанию.
+The project is a word game developed in the C++ Builder environment. The game loads an array of words from a text document and presents the player with a scrambled word with two letters added. The player must enter the correct word that matches the description.
 
 # Game-description
-Для каждого из трех уровней в игре предусмотрены отдельные файлы с названиями `words1.txt`, `words2.txt` и `words3.txt`. Каждый из этих файлов содержит список слов, соответствующих определенному уровню сложности.
+For each of the three levels in the game there are separate files named `words1.txt`, `words2.txt` and `words3.txt`. Each of these files contains a list of words corresponding to a certain difficulty level.
 
-Описание игры:
-"Компьютер выбирает случайное слово из списка. Далее, к выбранному слову добавляются несколько случайных букв, которые затем перемешиваются и выводятся на экран. Задача игрока заключается в прохождении уровней за наименьшее время. Игра включает три уровня сложности:
+Game description:
+"The computer selects a random word from the list. Next, several random letters are added to the selected word, which are then mixed and displayed on the screen. The player's task is to complete the levels in the shortest time. The game includes three difficulty levels:
 
-- Простой: слова до 5 букв,
-- Средний: слова от 5 до 8 букв,
-- Сложный: слова свыше 8 букв.
+- Simple: words up to 5 letters,
+- Medium: words from 5 to 8 letters,
+- Complex: words over 8 letters.
 
-На каждом уровне игроку предоставляется пять слов для угадывания. Игрок может допустить ошибку не более двух раз за уровень. Тематика игры охватывает фрукты, овощи и ягоды.
+At each level, the player is given five words to guess. The player can make a mistake no more than two times per level. The theme of the game covers fruits, vegetables and berries.
 
-Результаты игроков сохраняются в файл `result.txt`, который служит для записи и отображения достижений игроков."
+Player results are saved to the `result.txt` file, which is used to record and display player achievements."
